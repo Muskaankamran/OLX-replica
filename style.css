@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: rgb(195, 233, 248);
+  padding: 10px 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 40px;
+  margin-left: 80px;
+  margin-right: 28px;
+  
+}
+.img{
+      height: 2.4rem;
+    width: auto;
+}
+span{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2rem;
+    padding: 8px;
+}
+span:hover{
+       color:rgb(69, 164, 202);     
+}
+
+.location, .search {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-btn {
+  padding: 10px 15px;
+  background: #002f34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.login {
+  margin-left: auto;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #002f34;
+  font-weight: bold;
+}
+.sell-wrapper {
+  position: relative;
+  width: 120px; /* adjust based on SVG size */
+  height: 45px;
+  display: inline-block;
+}
+.sell-border { 
+  width: 100%;
+  height: 100%;
+  display: block;
+}  
+.sell-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  color: #3a77ff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.sell-icon {
+  width: 18px;
+  height: 18px;
+}
+.search-bar {
+  display: flex;
+  gap: 10px;
+  padding: 15px 20px;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-bar select, .search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background: #002f34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
